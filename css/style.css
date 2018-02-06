@@ -1,0 +1,24 @@
+
+/* navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.sub-menu:before {
+  width: 16px;
+  height: 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  left: 5px;
+  z-index: 0;
+  border-left: 10px solid #ff4444;
+  border-bottom: 10px solid #ff4444;
+  transform: rotate(133deg);
+  margin-right: 7px;
+  transition: none;
+}
+
+.dropdown-item:hover{
+  background-color: red;
+}
