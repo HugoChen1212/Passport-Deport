@@ -34,6 +34,10 @@
 .sub-menu {
   margin-top: 0px;
 }
+.nav-item {
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 /* background-image
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -60,6 +64,7 @@
   transform: translate(-50%, -50%);
   text-shadow: 2px 1px 3px white;
   font-weight: normal;
+  text-align: center;
 }
 
 /* Media
