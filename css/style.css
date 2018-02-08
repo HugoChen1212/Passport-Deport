@@ -6,34 +6,13 @@ body, html{
   margin:0;
 
 
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 /* navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*.sub-menu:before {
-  width: 16px;
-  height: 16px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  content: " ";
-  display: inline-block;
-  position: relative;
-  top: -15px;
-  left: 5px;
-  z-index: 0;
-  border-left: solid white;
-  border-bottom: solid white;
-  transform: rotate(133deg);
-  margin-right: 7px;
-  transition: none;
-}*/
-
-/*.dropdown-item:hover{
-  background-color: #d61313;
-}*/
 .navbar{
-  padding-bottom: 0px;
-  padding-top: 0px;
+  padding:0;
+
 
 }
 .nav-link{
@@ -58,12 +37,14 @@ body, html{
   background-repeat: no-repeat;
   min-height: 300px;
   overflow: hidden;
+  position: relative;
 }
 .img-overlay{
   position: absolute;
   background: rgba(0,0,0,0.7);
    width:100%;
   min-height:300px;
+
 }
 
 .img-text h2{
@@ -72,7 +53,6 @@ body, html{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*text-shadow: 2px 1px 3px white;*/
   font-weight: normal;
   text-align: center;
 }
@@ -118,12 +98,52 @@ body, html{
 /* Popular services
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .popular {
- background-color: #c5cbd6;
+ background-color: white;
  border-radius:30px;
+
 }
 
+.popular-ul{
+  list-style-type: none;
+}
+ .popular-link{
+  line-height: 1.8;
+ /* padding: 10px;*/
+}
 .popular .service-item a:hover {
   color: blue;
+}
+
+.note{
+  font-size: 12px;
+  color: #928E8D;
+}
+
+
+/* Serice steps
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.step-continer{
+  background-color: #D9D9D9;
+}
+.num {
+  float: left;
+  font-size: 90px;
+  line-height: 75px;
+  width: 53px;
+  margin-right: 5px;
+  color: #D1CFCF;
+  margin-top: 10px
+}
+.service-step{
+  position: relative;
+  z-index: 1;
+}
+.service-step p{
+  font-size: 16px;
+  padding-bottom: 2px;
+  padding-top: 10px;
+  font-weight: bold;
+  margin-bottom: 0px !important;
 }
 
 /* footer
@@ -181,7 +201,7 @@ footer a {
   left: 40%;
   font-size: 10px;
   font-weight: bold;
- border: 1px solid white;
+  border: 1px solid white;
 }
 .home-img-button-2{
   height:30px;
@@ -191,5 +211,8 @@ footer a {
   font-size: 10px;
   font-weight: bold;
   border: 1px solid white;
+  }
+  .service-item{
+    text-align: center;
   }
 }
