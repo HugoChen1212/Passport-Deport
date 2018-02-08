@@ -76,6 +76,43 @@ body, html{
   font-weight: normal;
   text-align: center;
 }
+.home-img-button-1 {
+  position: absolute;
+  height:40px;
+  width: 100px;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, 50%);
+  display:block;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  overflow: hidden;
+}
+.home-img-button-2 {
+  position: absolute;
+  height:40px;
+  width: 100px;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, 50%);
+  display:block;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+.home-img-button-1:hover{
+  background-color: #edf0f4;
+  color: black !important;
+}
+
+.home-img-button-2:hover{
+  background-color: #edf0f4;
+  color: black !important;
+}
+
 
 
 /* Popular services
@@ -121,7 +158,7 @@ footer a {
 /* Media
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
 .home-page-img {
   background-image:url('../img/home-page.jpg') auto 100px;
@@ -136,4 +173,23 @@ footer a {
 .img-text h2{
   font-size: large;
 }
+
+.home-img-button-1 {
+  height:30px;
+  width: 70px;
+  top: 65%;
+  left: 40%;
+  font-size: 10px;
+  font-weight: bold;
+ border: 1px solid white;
+}
+.home-img-button-2{
+  height:30px;
+  width: 70px;
+  top: 65%;
+  left: 60%;
+  font-size: 10px;
+  font-weight: bold;
+  border: 1px solid white;
+  }
 }
