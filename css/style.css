@@ -34,6 +34,7 @@ body, html{
 .navbar{
   padding-bottom: 0px;
   padding-top: 0px;
+
 }
 .nav-link{
   padding-bottom: 19px;
@@ -80,13 +81,41 @@ body, html{
 /* Popular services
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .popular {
- background-color: #d2dff4;
+ background-color: #c5cbd6;
  border-radius:30px;
 }
 
 .popular .service-item a:hover {
-  color: white;
+  color: blue;
 }
+
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  color: rgb(146,146,146);
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: #1c1c1c;
+}
+
+footer p {
+  display: inline;
+}
+
+footer a {
+  display: inline;
+  width: 12%;
+  padding: 10px;
+  color: rgb(146,146,146);
+  text-decoration: none;
+}
+
+
+
+
 
 
 /* Media
