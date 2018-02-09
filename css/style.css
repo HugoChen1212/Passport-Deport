@@ -5,10 +5,10 @@ body, html{
   height:100%;
 
 
-
+  overflow-y:auto;
   overflow-x: hidden;
   margin:0;
-  overflow: scroll;
+ /* overflow: scroll;*/
   position: static;
 }
 /* navbar
