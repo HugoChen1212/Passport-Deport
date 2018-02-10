@@ -70,7 +70,7 @@ body, html{
   background-color: Transparent;
   background-repeat: no-repeat;
   border: 2px solid white;
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
 .home-img-button-2 {
   position: absolute;
@@ -83,7 +83,7 @@ body, html{
   background-color: Transparent;
   background-repeat: no-repeat;
   border: 2px solid white;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .home-img-button-1:hover{
@@ -139,7 +139,7 @@ body, html{
 }
 .service-step{
   position: relative;
-  z-index: 1;
+ /* z-index: 1;*/
 }
 .service-step p{
   font-size: 16px;
