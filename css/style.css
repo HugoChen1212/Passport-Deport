@@ -290,10 +290,8 @@ footer {
   .flag-box{
     height: 100px;
     width: 250px;
-    margin-left: 30%;
+    margin-left: 150px;
     font-size: large;
   }
-  body, html{
-    overflow-x: hidden;
-  }
+
   }
