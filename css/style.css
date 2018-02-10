@@ -283,8 +283,14 @@ footer {
 }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 578px) {
   .popular-ul{
     display:inline;
+  }
+  .flag-box{
+    height: 100px;
+    width: 300px;
+    margin-left: 30%;
+    font-size: large;
   }
   }
