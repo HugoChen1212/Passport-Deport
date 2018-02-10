@@ -3,12 +3,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body, html{
   height:100%;
-
-
-/*  overflow-y:scroll !important;
-  overflow-x: hidden;*/
+  overflow-x: hidden;
   margin:0;
- /* overflow: scroll;*/
   position: static;
 }
 /* navbar
