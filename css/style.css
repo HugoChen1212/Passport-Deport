@@ -21,6 +21,7 @@ body, html{
 .nav-link{
   padding-bottom: 19px;
   padding-top: 19px;
+  margin-left: 10px;
 
 }
 .sub-menu {
@@ -121,6 +122,14 @@ body, html{
   font-size: 12px;
   color: #928E8D;
 }
+
+/* Flag
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.flag{
+  display:none;
+}
+
+
 
 
 /* Service steps
@@ -258,7 +267,24 @@ footer {
   font-weight: bold;
   border: 1px solid white;
   }
-  .service-item{
+/*  .service-item{
     text-align: center;
-  }
+  }*/
+
+..popular-ul{
+  padding-left:0px;
+  padding-right: 0px;
 }
+
+  .flag{
+  display:inline;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+}
+
+@media screen and (max-width: 430px) {
+  .popular-ul{
+    display:inline;
+  }
+  }
