@@ -226,9 +226,15 @@ footer {
 }*/
 
 
+/* contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.google-map-xxs{
+  display: none;
+}
 
-
-
+.addres{
+ margin-bottom: 2px;
+}
 
 /* Media
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -295,5 +301,12 @@ footer {
   .popular-ul{
     padding-left: 100px;
   }
+  .google-map{
+    display: none;
+  }
+
+  .google-map-xxs{
+  display: inline;
+}
 
   }
