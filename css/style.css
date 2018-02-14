@@ -171,6 +171,9 @@ background-color: rgba(242,242,242,1) !important;
   margin-bottom: 40px;
   padding-bottom: 5px;
 }
+.bubble p{
+  font-size: small;
+}
 .img-circle{
   border-radius: 50%;
 }
@@ -223,18 +226,24 @@ background-color: rgba(242,242,242,1) !important;
 /* shortcut-bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .shortcut-bar{
-  background-color: #D9D9D9;
+  /*background-color: #D9D9D9;*/
+  /*background-color: #1c1c1c;*/
+  background-color: #0674e2;
+
   height: 100px;
   width: 100%;
 }
+
 .icon-sb{
    margin-top: -50px;
    background-color:white;
    z-index: 1;
+   position: relative;
 }
 .sb-title{
  padding-top: 10px !important;
  font-weight: bold;
+ color: white;
 }
 .icon-text{
   padding-top: 15px;
@@ -242,22 +251,28 @@ background-color: rgba(242,242,242,1) !important;
   font-weight: bold;
 }
 .icon-border{
-  border-right: 4px solid #D9D9D9;
+  border-right: 4px solid #0674e2;
 }
 
 /* footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
  /* color: rgb(146,146,146);*/
- color: black;
-  text-align: center;
+ color: white;
+  text-align: left;
   text-transform: uppercase;
-  /*background-color: #1c1c1c;*/
-  background-color: #D9D9D9;
+  background-color: #1c1c1c;
+ /* background-color: #D9D9D9;*/
   font-weight: bold;
+
 }
 .footer-contect {
   margin-bottom: 0px;
+}
+.footer-contect-a{
+  margin-bottom: 0px;
+  display: block;
+  color: white;
 }
 
 /*footer a {
