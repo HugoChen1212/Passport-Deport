@@ -227,8 +227,8 @@ background-color: rgba(242,242,242,1) !important;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .shortcut-bar{
   /*background-color: #D9D9D9;*/
-  /*background-color: #1c1c1c;*/
-  background-color: #0674e2;
+  background-color: #1c1c1c;
+ /* background-color: #0674e2;*/
 
   height: 100px;
   width: 100%;
@@ -251,7 +251,7 @@ background-color: rgba(242,242,242,1) !important;
   font-weight: bold;
 }
 .icon-border{
-  border-right: 4px solid #0674e2;
+  border-right: 4px solid #1c1c1c;
 }
 
 /* footer
