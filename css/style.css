@@ -279,6 +279,10 @@ footer {
   color: white;
 }
 
+.dycalendar-container{
+  height: 250px;
+}
+
 /*footer a {
   display: inline;
   width: 12%;
