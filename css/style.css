@@ -260,11 +260,15 @@ footer {
  /* color: rgb(146,146,146);*/
  color: white;
   text-align: left;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   background-color: #1c1c1c;
  /* background-color: #D9D9D9;*/
-  font-weight: bold;
+  /*font-weight: bold;*/
 
+}
+.footer-title{
+  font-weight: bold;
+  font-size: large;
 }
 .footer-contect {
   margin-bottom: 0px;
