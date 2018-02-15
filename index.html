@@ -8,6 +8,8 @@
   <script src="js/application.js"> </script>
  <script src="js/popper.min.js"> </script>
 
+ <link href="css/dycalendar.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -271,7 +273,7 @@
   </div>
 </div> -->
 
-    <div class="shortcut-bar">
+<!--     <div class="shortcut-bar">
       <div class="container">
       <h4 class="sb-title"> Shortcut Bar </h4>
       </div>
@@ -307,24 +309,27 @@
         </div>
       </div>
   </div>
-
+ -->
 
 
 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/picol" title="Picol">Picol</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 
 
-      <footer class="py-5">
+
+
+
+      <footer class="py-4">
       <div class="container">
         <div class="row">
 
-          <div class="col-md-3">
+          <div class="col-md-2">
             <a href="index.html" class="navbar-brand">
        <img src="img/logo.jpg" alt="logo", width="50" height ="50" class="img-responsive" >
         </a>
        <!--  <p class="footer-contect">Copyright &copy; 2018 by Hugo Chen</p> -->
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-3">
             <p class="footer-title"> Helpful Links </p>
 
             <a class="footer-contect-a" href="visas.html">Visas</a>
@@ -334,22 +339,38 @@
             <a class="footer-contect-a" href="#">Privacy Policy</a>
 
           </div>
-          <div class="col-md-5">
+          <div class="col-md-4">
             <p class="footer-title">Passport Depot</p>
             <p class="footer-contect">1388 Haight Street </p>
             <p class="footer-contect">San Francisco, California 94117</p>
-
+            <br>
             <p class="footer-contect">Phone: 415-437-1388 </p>
             <p class="footer-contect">Fax: 800-687-1388</p>
             <p class="footer-contect">Email: info@passportdepot.com </p>
           </div>
 
+          <div class="col-md-3">
+              <div class="some-class">
+                 <div id="calendar" class="dycalendar-container"> </div>
+              </div>
+          </div>
         </div>
       </div>
     </footer>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/dycalendar.min.js"></script>
+  <script>
+      dycalendar.draw({
+        target: "#calendar",
+        type: "month",
+        highlighttoday: true
+      })
+
+  </script>
 </body>
 </html>
 
