@@ -9,7 +9,9 @@ body, html{
   overflow-x: hidden;*/
   margin:0;
  /* overflow: scroll;*/
-  position: static;
+ /* position: static;*/
+  background: #f9f9f9;
+
 }
 /* navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -205,7 +207,7 @@ background-color: rgba(242,242,242,1) !important;
   left: 20px;
   transform: rotate(45deg);
   margin-top: -14px;
-  background-color: white;
+  background-color: #f9f9f9;
 }
 
 /* Recommended
@@ -254,6 +256,21 @@ background-color: rgba(242,242,242,1) !important;
   border-right: 4px solid #1c1c1c;
 }
 
+/* Visa-application and infromation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.visa-app{
+   background: url('../img/visa-app.jpg');
+  /* height: 450px;
+   width: 200px;*/
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.visa-app-text{
+/* text-align: center;*/
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
 /* footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
@@ -261,9 +278,12 @@ footer {
  color: white;
   text-align: left;
  /* text-transform: uppercase;*/
-  background-color: #1c1c1c;
+ /* background-color: #1c1c1c;*/
  /* background-color: #D9D9D9;*/
   /*font-weight: bold;*/
+  background: url('../img/footer_lodyas.jpg');
+  background-size: cover;
+
 
 }
 .footer-title{
@@ -359,6 +379,17 @@ footer {
 .icon-border{
   border-right: none;
 }
+
+.visa-app{
+   height: 300px;
+   width: 490px;
+   margin-left: 30px;
+}
+
+.visa-app-text{
+  padding-right: 30px;
+}
+
 }
 
 @media screen and (max-width: 578px) {
@@ -383,6 +414,16 @@ footer {
 
 .icon-border{
   border-right: none;
+}
+
+.visa-app{
+   height: 300px;
+   width: 460px;
+   margin-left: 30px;
+}
+
+.visa-app-text{
+  padding-right: 30px;
 }
 
   }
