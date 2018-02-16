@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
-
+ <link href="css/dycalendar.min.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -36,10 +36,10 @@
                   <a class="nav-link" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="visa.html">Visas</a>
+                  <a class="nav-link" href="visas.html">Visas</a>
                 </li>
 
-              <li class="nav-item dropdown passport">
+           <!--    <li class="nav-item dropdown passport">
                 <a class="nav-link dropdown-toggle dropdown-link" href="passport.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Passport Services
                 </a>
@@ -48,14 +48,10 @@
                     <a class="dropdown-item" href="#">Another action</a>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
-              </li>
+              </li> -->
 
-                <li class="nav-item">
-                <a class="nav-link" href="#">Forms</a>
-              </li>
-              </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Rates & Fees</a>
+              <li class="nav-item">
+                <a class="nav-link" href="passport.html">Passport Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
@@ -72,42 +68,58 @@
 
 
 
-<footer class="py-5">
+<footer class="py-4">
       <div class="container">
         <div class="row">
 
-          <div class="col-md-3">
+          <div class="col-md-2">
             <a href="index.html" class="navbar-brand">
        <img src="img/logo.jpg" alt="logo", width="50" height ="50" class="img-responsive" >
         </a>
        <!--  <p class="footer-contect">Copyright &copy; 2018 by Hugo Chen</p> -->
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-3">
+            <p class="footer-title"> Helpful Links </p>
 
             <a class="footer-contect-a" href="visas.html">Visas</a>
             <a class="footer-contect-a" href="passport.html">Passport</a>
             <a class="footer-contect-a" href="about.html">About Us</a>
-             <a class="footer-contect-a" href="#">Forms</a>
-              <a class="footer-contect-a" href="#">Rates & Fees</a>
             <a class="footer-contect-a" href="#">Terms of Use</a>
             <a class="footer-contect-a" href="#">Privacy Policy</a>
 
           </div>
-          <div class="col-md-5">
-            <p>Passport Depot</p>
+          <div class="col-md-4">
+            <p class="footer-title">Passport Depot</p>
             <p class="footer-contect">1388 Haight Street </p>
             <p class="footer-contect">San Francisco, California 94117</p>
-
+            <br>
             <p class="footer-contect">Phone: 415-437-1388 </p>
             <p class="footer-contect">Fax: 800-687-1388</p>
             <p class="footer-contect">Email: info@passportdepot.com </p>
           </div>
 
+          <div class="col-md-3">
+              <div class="some-class">
+                 <div id="calendar" class="dycalendar-container"> </div>
+              </div>
+          </div>
         </div>
       </div>
     </footer>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/dycalendar.min.js"></script>
+  <script>
+      dycalendar.draw({
+        target: "#calendar",
+        type: "month",
+        highlighttoday: true
+      })
+
+  </script>
 </body>
 </html>
