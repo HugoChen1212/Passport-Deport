@@ -412,6 +412,15 @@ footer {
   line-height: 20px;
 }
 
+.footer-title{
+  margin-top:10px;
+  margin-bottom: 5px;
+}
+
+.dycalendar-container{
+  margin-top:10px;
+}
+
 }
 
 @media screen and (max-width: 578px) {
@@ -454,6 +463,14 @@ footer {
 }
 .footer-contect-a{
   line-height: 20px;
+}
+.footer-title{
+  margin-top:10px;
+  margin-bottom: 5px;
+}
+
+.dycalendar-container{
+  margin-top:10px;
 }
 
   }
