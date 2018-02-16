@@ -297,6 +297,7 @@ footer {
   margin-bottom: 0px;
   display: block;
   color: white;
+  line-height: 30px;
 }
 
 .dycalendar-container{
@@ -316,6 +317,11 @@ footer {
 .google-map-xxs{
   display: none;
 }
+
+.google-map-xs{
+  display: none;
+}
+
 
 .addres{
  margin-bottom: 3px;
@@ -380,6 +386,18 @@ footer {
   border-right: none;
 }
 
+ .google-map{
+    display: none;
+  }
+
+  .google-map-xs{
+    display: inline;
+  }
+
+  .google-map-xxs{
+  display: none;
+}
+
 .visa-app{
    height: 300px;
    width: 400px;
@@ -388,6 +406,10 @@ footer {
 
 .visa-app-text{
   padding-right: 30px;
+}
+
+.footer-contect-a{
+  line-height: 20px;
 }
 
 }
@@ -408,6 +430,10 @@ footer {
     display: none;
   }
 
+  .google-map-xs{
+    display: none;
+  }
+
   .google-map-xxs{
   display: inline;
 }
@@ -425,6 +451,9 @@ footer {
 
 .visa-app-text{
   padding-right: 30px;
+}
+.footer-contect-a{
+  line-height: 20px;
 }
 
   }
