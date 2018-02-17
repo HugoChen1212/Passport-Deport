@@ -1,0 +1,37 @@
+.link-bar{
+  font-size: large;
+
+}
+.ps-phone{
+  font-size: large;
+}
+#cell-phone{
+  font-weight: bold;
+  color:red;
+}
+
+.ps-contain p{
+  font-size: large;
+  line-height: 22px;
+}
+
+.ps-ptext p{
+  margin-bottom: 0px;
+  line-height: 18px;
+  font-size: medium;
+}
+.tit-item{
+  margin-bottom: 20px;
+}
+
+.last-p{
+  padding-bottom: 10px;
+}
+
+.size-btn{
+  width: 240px;
+  margin-left: 10%;
+}
+.condition{
+  font-weight: bold;
+}
