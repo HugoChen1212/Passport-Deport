@@ -17,14 +17,17 @@ body, html{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .navbar{
   padding:0;
-background-color: rgba(242,242,242,1) !important;
-
+  /*background-color: rgba(242,242,242,1) !important;*/
+   background: url('../img/header-bg.png');
 }
 .nav-link{
   padding-bottom: 19px;
   padding-top: 19px;
   margin-left: 10px;
-
+  color: white !important;
+}
+.nav-link:hover {
+  color: #A926CF !important;
 }
 .sub-menu {
   margin-top: 0px;
@@ -283,7 +286,7 @@ footer {
   /*font-weight: bold;*/
   background: url('../img/footer_lodyas.jpg');
   background-size: cover;
-
+  clear: both;
 
 }
 .footer-title{
