@@ -58,7 +58,7 @@ body, html{
 
 
 .home-page-img {
-   background-image: url('../img/Travel-site.jpg');
+  background-image: url('../img/Travel-site.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
