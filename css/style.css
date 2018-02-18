@@ -17,14 +17,17 @@ body, html{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .navbar{
   padding:0;
-  /*background-color: rgba(242,242,242,1) !important;*/
-   background: url('../img/header-bg.png');
+  background-color: #f9f9f9 !important;
+  /* background: url('../img/header-bg.png');*/
 }
+
+
 .nav-link{
-  padding-bottom: 19px;
-  padding-top: 19px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-left: 10px;
-  color: white !important;
+  color: black !important;
+  font-size: large;
 }
 .nav-link:hover {
   color: #A926CF !important;
@@ -37,9 +40,25 @@ body, html{
   font-weight: bold;
 }
 
+
+/* image-head
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.image-head {
+  background-image: url('../img/Travel-site.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
 /* background-image
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.home-page-img {
+/*.home-page-img {
   background-image:url('../img/home-page.jpg');
   background-size: cover;
   background-position: center;
@@ -47,7 +66,23 @@ body, html{
   min-height: 300px;
   overflow: hidden;
   position: relative;
+}*/
+
+
+.home-page-img {
+   background-image: url('../img/Travel-site.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
 }
+
+
 .img-overlay{
   position: absolute;
   background: rgba(0,0,0,0.7);
@@ -73,6 +108,7 @@ body, html{
   left: 40%;
   transform: translate(-50%, 50%);
   display:block;
+  color:white;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: 2px solid white;
@@ -86,6 +122,7 @@ body, html{
   left: 60%;
   transform: translate(-50%, 50%);
   display:block;
+  color: white;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: 2px solid white;
@@ -274,6 +311,9 @@ body, html{
   padding-right: 20px;
 }
 
+
+
+
 /* footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
@@ -336,17 +376,19 @@ footer {
 @media screen and (max-width: 768px) {
 
 .home-page-img {
-  background-image:url('../img/home-page.jpg') auto 100px;
-  min-height:250px;
-  background-attachment: scroll;
+  width: 100%;
 }
 
-.img-overlay{
+/*.img-overlay{
   min-height:250px;
 }
-
+*/
 .img-text h2{
   font-size: large;
+}
+.img-text h2{
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .home-img-button-1 {
@@ -357,6 +399,7 @@ footer {
   font-size: 10px;
   font-weight: bold;
   border: 1px solid white;
+
 }
 .home-img-button-2{
   height:30px;
@@ -427,6 +470,9 @@ footer {
 }
 
 @media screen and (max-width: 578px) {
+  .home-page-img {
+  width: 100%;
+}
   .popular-ul{
     display:inline;
   }

@@ -21,7 +21,7 @@
   <title>Passport Despot</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg  navbar-light bg-white">
+   <nav class="navbar navbar-expand-lg  navbar-light bg-white py-4">
     <div class="container">
       <a href="index.html" class="navbar-brand">
        <img src="img/logo.jpg" alt="logo", width="50" height ="50" class="img-responsive" >
@@ -64,19 +64,56 @@
     </div>
   </nav>
 
-    <div class="home-page-img">
+  <!--   <div class="home-page-img">
       <div class="img-overlay">
         <div class="img-text">
           <h2> WELCOME TO PASSPORT DEPORT
            </h2>
             <br>
-           <a class=" btn home-img-button-1 text-white" href="#"> Passport</a>
+           <a class=" btn home-img-button-1 text-white" href="passport.html"> Passport</a>
 
-           <a class=" btn home-img-button-2 text-white" href="#">Visa</a>
+           <a class=" btn home-img-button-2 text-white" href="visas.html">Visa</a>
 
         </div>
       </div>
+    </div> -->
+
+
+      <div id="image-head" class="home-page-img">
+
+            <div class="img-text">
+          <h2> WELCOME TO PASSPORT DEPORT</h2>
+            <br>
+           <a class=" btn home-img-button-1" href="passport.html"> Passport</a>
+
+           <a class=" btn home-img-button-2" href="visas.html">Visa</a>
+
+        </div>
     </div>
+
+
+
+<!-- <script>
+var images = [
+  "img/flower.jpg",
+  "img/balloon.jpg",
+  "img/Travel-site.jpg"
+]
+
+var imageHead = document.getElementById("image-head");
+var i = 0;
+
+setInterval(function() {
+      imageHead.style.backgroundImage = "url(" + images[i] + ")";
+      i = i + 1;
+      if (i == images.length) {
+        i =  0;
+      }
+}, 5000);
+
+</script> -->
+
+
 
   <div class="container">
     <div class="row">
@@ -330,7 +367,6 @@
       </div>
 
 
-
       <footer class="py-4">
       <div class="container">
         <div class="row">
@@ -373,7 +409,7 @@
 
 
 
-
+ <script src="js/application.js"> </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/dycalendar.min.js"></script>
   <script>
