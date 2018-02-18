@@ -4,6 +4,7 @@
 }
 .ps-phone{
   font-size: large;
+  color:#5f4696;
 }
 #cell-phone{
   font-weight: bold;
@@ -24,7 +25,7 @@
   padding-bottom: 14px;
 }
 .tit-item{
-  margin-bottom: 20px;
+ margin-bottom: 20px;
   text-align: center;
 }
 
@@ -39,3 +40,13 @@
 .size-btn:hover {
   color: #A926CF !important;
 }
+
+#hr-pr{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+#hr-pr{
+  display: block;
+}
+  }
