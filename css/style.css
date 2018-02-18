@@ -355,7 +355,13 @@ footer {
 
 
 .addres{
- margin-bottom: 3px;
+ margin-bottom: 0px;
+ line-height: 1.35;
+
+}
+.contect-text p{
+  font-size: 20px;
+  text-indent: 15px;
 }
 
 /* Media
