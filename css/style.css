@@ -460,6 +460,14 @@ footer {
 .dycalendar-container{
   margin-top:10px;
 }
+.addres{
+ line-height: 1.35;
+
+}
+.contect-text p{
+  font-size: 17px;
+  text-indent: 30px;
+}
 
 }
 
