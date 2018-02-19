@@ -11,9 +11,9 @@ $(document).ready(function (){
 
 
 var images = [
-  '../img/flight.jpg',
-  '../img/balloon.jpg',
-  '../img/Travel-site.jpg'
+  'img/flight.jpg',
+  'img/balloon.jpg',
+  'img/Travel-site.jpg'
 ]
 
 var imageHead = document.getElementById("image-head");
