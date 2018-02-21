@@ -193,13 +193,11 @@ body, html{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bubble{
   position: relative;
-  padding: 20px;
-  padding-left: 10px;
+  padding: 10px;
   border: 2px solid #D1CFCF;
   border-radius: 20px;
   margin-top: 30px;
   margin-bottom: 40px;
-  padding-bottom: 5px;
 }
 .bubble p{
   font-size: small;
@@ -361,7 +359,7 @@ footer {
 }
 .contect-text p{
   font-size: 20px;
-  text-indent: 15px;
+  padding-left: 30px;
 }
 
 /* Media
@@ -466,7 +464,9 @@ footer {
 }
 .contect-text p{
   font-size: 17px;
-  text-indent: 30px;
+}
+.contect-text h3{
+  font-size: x-large;
 }
 
 }
