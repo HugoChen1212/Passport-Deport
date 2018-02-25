@@ -1,0 +1,30 @@
+.np-ul{
+  list-style-type: none;
+  margin-bottom: -1px;
+  align-items: flex-end;
+  padding-left: 15px;
+}
+.np-list-item{
+   border: 1px solid #e0e0e0;
+   padding:10px;
+   font-size: x-large;
+   background-color: #e0e1e2;
+   border-top-left-radius:7px;
+   border-top-right-radius:7px;
+   text-align:center;
+}
+
+.np-nav{
+  border-bottom: 1px solid #e0e0e0;
+}
+.fees-text{
+  font-size: 15px;
+  text-align: right;
+  padding-top: 15px;
+}
+  .np-ul .active-np{
+  background-color: #f9f9f9;
+  border-bottom-color: #f9f9f9;
+  height: 65px;
+}
+
