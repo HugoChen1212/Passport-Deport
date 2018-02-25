@@ -28,3 +28,9 @@
   height: 65px;
 }
 
+.tooltip-inner{
+  background-color: black;
+  color: white;
+  border: 1px solid #e0e0e0;
+  padding:5px;
+}
