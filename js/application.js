@@ -32,22 +32,44 @@ var images = [
 ]
 
 var imageHead = document.getElementById("image-head");
+// var i = 0;
+// function setImage(){
+// i = i + 1;
+// console.log(i)
+//  if (i === images.length) {
+//         i =  0;
+//       }
+// imageHead.style.backgroundImage = "url(" + images[i] + ")";
+// }
+
+// setInterval(setImage, 1000);
+
+// setInterval(setImage, 5000);
+
+// var counter =0;
+// setInterval(function(){
+//   // counter++;
+//    counter = (counter + 1) % images.length;
+//   console.log(counter);
+//   if(counter===images.length){
+//     counter=0;
+//   }
+//   imageHead.style.backgroundImage = "url(" + images[counter] + ")";
+// }, 2000);
 
 
-var i = 0;
-function setImage(){
+(function() {
+    var i = 0;
+    var numberOfImages = 3; // Change this to the number of background images
+    setInterval(function() {
+       console.log(i)
+        $('#image-head').css('background-image','url(' + images[i]  + ')');
+        i = (i + 1) % numberOfImages;
 
-imageHead.style.backgroundImage = "url(" + images[i] + ")";
+    } , 3000);
+})();
 
-i = i + 1;
 
- if (i === images.length) {
-        i =  0;
-      }
-
-}
-
-setInterval(setImage, 5000);
 
 // setInterval(setImage, 5000);
 
@@ -59,6 +81,7 @@ setInterval(setImage, 5000);
 //     counter=0;
 //   }
 // }, 2000);
+
 
 
 
