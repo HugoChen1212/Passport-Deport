@@ -62,7 +62,6 @@ var imageHead = document.getElementById("image-head");
     var i = 0;
     var numberOfImages = 3; // Change this to the number of background images
     setInterval(function() {
-       console.log(i)
         $('#image-head').css('background-image','url(' + images[i]  + ')');
         i = (i + 1) % numberOfImages;
 
