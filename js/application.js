@@ -66,7 +66,7 @@ var imageHead = document.getElementById("image-head");
         $('#image-head').css('background-image','url(' + images[i]  + ')');
         i = (i + 1) % numberOfImages;
 
-    } , 3000);
+    } , 5000);
 })();
 
 
