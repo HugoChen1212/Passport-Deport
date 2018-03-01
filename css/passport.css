@@ -20,9 +20,11 @@
 
 .ps-ptext p{
   margin-bottom: 0px;
-  line-height: 18px;
+  line-height: 20px;
   font-size: 100%;
   padding-bottom: 14px;
+  padding-right:15px;
+  padding-left: 10px;
 }
 .tit-item{
  margin-bottom: 20px;

@@ -1,0 +1,30 @@
+.box{
+  display:none;
+}
+
+#selectCountries{
+  width: 150px;
+  height: 30px;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #555;
+}
+.visa-form{
+  background-color: #3CBC8D;
+  padding: 10px;
+}
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 1px solid black;
+}
+
+legend{
+  width: 200px;
+}
