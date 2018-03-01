@@ -8,11 +8,13 @@
   <script src="js/application.js"> </script>
  <script src="js/popper.min.js"> </script>
 
+ <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
+
  <link href="css/dycalendar.min.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/visa.css">
 
 
 
@@ -21,7 +23,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white py-2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
     <div class="container">
       <a href="index.html" class="navbar-brand">
        <img src="img/logo.jpg" alt="logo", width="50" height ="50" class="img-responsive" >
@@ -39,17 +41,6 @@
                   <a class="nav-link" href="visas.html">Visas</a>
                 </li>
 
-           <!--    <li class="nav-item dropdown passport">
-                <a class="nav-link dropdown-toggle dropdown-link" href="passport.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Passport Services
-                </a>
-                  <div class="dropdown-menu sub-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-              </li> -->
-
               <li class="nav-item">
                 <a class="nav-link" href="passport.html">Passport Services</a>
               </li>
@@ -63,14 +54,102 @@
         </div>
     </div>
   </nav>
+<div class="container">
 
 
-<div id="image-head" class="image-head">
-  <div class="centering-hack">
-    <h1>Something HTML</h1>
+  <h2 class="pt-4 pb-1 mb-3 text-center border-bottom">Find out what Visa requirements please select the correct situation</h2>
+
+  <div class="row">
+      <div class="col-md-3">
+        <div class="visa-form">
+        <p>Type of passport </p>
+        <input type="radio" name="us" value="us">
+        <label> US </label>
+         <input type="radio" name="none-us" value="none-us">
+        <label> None-US </label>
+      </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="visa-form">
+      <p> Which country are you going?</p>
+       <select id="selectCountries">
+        <option value="China" href="#">China </option>
+        <option value="div2" href="#">link2  </option>
+        <option value="div3" href="#">link3  </option>
+        <option value="div4" href="#">link4  </option>
+       </select>
+       </div>
+      </div>
+       <div class="col-md-3">
+        <div class="visa-form">
+        <p> Where do you live? </p>
+         <select id="selectCountries">
+          <option value="link1" href="#div1">link1 </option>
+          <option value="link2" href="#">link2  </option>
+          <option value="link3" href="#">link3  </option>
+          <option value="link4" href="#">link4  </option>
+         </select>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="visa-form">
+        <p> What type of Visa? </p>
+         <select id="selectCountries">
+          <option value="link1" href="#div1">link1 </option>
+          <option value="link2" href="#">link2  </option>
+          <option value="link3" href="#">link3  </option>
+          <option value="link4" href="#">link4  </option>
+         </select>
+
+        </div>
+    </div>
   </div>
-</div>
+      <div class="clearfix">
+            <div id="China" class="box">
 
+    <div class="row">
+      <div class="col-md-4">
+          <fieldset>
+            <legend>Personalia:</legend>
+            Name: <input type="text"><br>
+            Email: <input type="text"><br>
+            Date of birth: <input type="text">
+          </fieldset>
+      </div>
+
+      <div class="col-md-4">
+          <fieldset>
+            <legend>Letter:</legend>
+            Name: <input type="text"><br>
+            Email: <input type="text"><br>
+            Date of birth: <input type="text">
+          </fieldset>
+      </div>
+
+      <div class="col-md-4">
+          <fieldset>
+            <legend>Photo:</legend>
+            Name: <input type="text"><br>
+            Email: <input type="text"><br>
+            Date of birth: <input type="text">
+          </fieldset>
+      </div>
+
+
+
+    </div>
+
+
+
+            </div>
+            <div id="div2" class="box">div2</div>
+            <div id="div3" class="box">div3</div>
+            <div id="div4" class="box">div4</div>
+        </div>
+  </div
+</div>
 
 
 <footer class="py-4">
@@ -114,8 +193,7 @@
     </footer>
 
 
-
-
+ <script src="js/application.js"> </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/dycalendar.min.js"></script>
   <script>

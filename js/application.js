@@ -70,6 +70,51 @@ var imageHead = document.getElementById("image-head");
 
 
 
+// var firstEl=$("#secondSelect option:selected").val();
+// var firstEl=$("#secondSelect :selected").text();
+
+ // var firstEl=fEl.this.value;
+// console.log(firstEl);
+
+
+
+var country;
+(function () {
+  $('#selectCountries').change(function(){
+      var current_country=  $(this).val();
+      country=current_country;
+      console.log(current_country);
+  });
+})();
+
+ console.log(country);
+
+
+
+// (function() {
+//   $('#selectCountries').change(function(){
+//     firstEl = $(this).val();
+//     console.log(firstEl);
+//     $('#secondSelect').change(function(){
+
+//        secondEl = $(this).val();
+//        console.log(secondEl);
+//    });
+//   });
+// })();
+
+
+
+
+
+(function() {
+  $('#selectCountries').change(function(){
+        $('.box').hide();
+        $('#' + $(this).val()).show();
+  });
+})();
+
+
 // setInterval(setImage, 5000);
 
 // var counter =0;
