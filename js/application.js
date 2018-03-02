@@ -78,17 +78,39 @@ var imageHead = document.getElementById("image-head");
 
 
 
-var country;
-(function () {
+
+(function() {
   $('#selectCountries').change(function(){
       var current_country=  $(this).val();
-      country=current_country;
-      console.log(current_country);
+      live(current_country);
   });
 })();
 
- console.log(country);
 
+function live(current_country){
+  $('#selectLive').change(function(){
+      var current_live=  $(this).val();
+      three(current_country,current_live);
+
+    });
+}
+
+function three(current_country,current_live){
+  $('#visaType').change(function(){
+      var current_visa_type=  $(this).val();
+      type_passport(current_country,current_live,current_visa_type);
+    });
+}
+
+function type_passport(current_country,current_live,current_visa_type){
+
+    var current_passport_type=  $('input[name="us"]:checked').val();
+      console.log(current_passport_type);
+      console.log(current_country);
+      console.log(current_live);
+      console.log(current_visa_type);
+
+}
 
 
 // (function() {
@@ -107,12 +129,12 @@ var country;
 
 
 
-(function() {
-  $('#selectCountries').change(function(){
-        $('.box').hide();
-        $('#' + $(this).val()).show();
-  });
-})();
+// (function() {
+//   $('#selectCountries').change(function(){
+//         $('.box').hide();
+//         $('#' + $(this).val()).show();
+//   });
+// })();
 
 
 // setInterval(setImage, 5000);
