@@ -79,38 +79,49 @@ var imageHead = document.getElementById("image-head");
 
 
 
-(function() {
-  $('#selectCountries').change(function(){
-      var current_country=  $(this).val();
-      live(current_country);
-  });
-})();
 
 
-function live(current_country){
-  $('#selectLive').change(function(){
-      var current_live=  $(this).val();
-      three(current_country,current_live);
+// working from here
+// (function() {
+//     $('#selectCountries').change(function(){
+//       var current_country=  $(this).val();
+//         live(current_country);
+//   });
+// })();
 
-    });
-}
 
-function three(current_country,current_live){
-  $('#visaType').change(function(){
-      var current_visa_type=  $(this).val();
-      type_passport(current_country,current_live,current_visa_type);
-    });
-}
+// function live(current_country){
 
-function type_passport(current_country,current_live,current_visa_type){
+//   $('#selectLive').change(function(){
+//       var current_live=  $(this).val();
+//       three(current_country,current_live);
+//     });
+// }
 
-    var current_passport_type=  $('input[name="us"]:checked').val();
-      console.log(current_passport_type);
-      console.log(current_country);
-      console.log(current_live);
-      console.log(current_visa_type);
+// function three(current_country,current_live){
 
-}
+//   $('#visaType').change(function(){
+//       var current_visa_type=  $(this).val();
+//       type_passport(current_country,current_live,current_visa_type);
+//     });
+// }
+
+// function type_passport(current_country,current_live,current_visa_type){
+
+//     var current_passport_type=  $('input[name="us"]:checked').val();
+//       console.log(current_passport_type);
+//       console.log(current_country);
+//       console.log(current_live);
+//       console.log(current_visa_type);
+
+// }
+
+
+
+
+
+
+
 
 
 // (function() {

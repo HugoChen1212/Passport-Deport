@@ -28,3 +28,27 @@ fieldset {
 legend{
   width: 200px;
 }
+
+.ps-phone{
+  font-size: large;
+  color:#5f4696;
+}
+#cell-phone{
+  font-weight: bold;
+  color:red;
+  font-size: x-large;
+
+}
+.visa-ul{
+  list-style: none;
+  font-size: large;
+}
+.visa-flag{
+  margin-right: 10px;
+}
+#visa-link-container{
+  background-color: #D9D9D9;
+}
+.visa-p-text p{
+  font-size: large;
+}
