@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" type="text/css" href="../css/style.css">
  <link rel="stylesheet" type="text/css" href="../css/passport.css">
+
   <link rel="stylesheet" type="text/css" href="../css/china-visa.css">
 
 
@@ -76,7 +77,7 @@
     <div class="title-china-visa mt-3"> </div>
     <div class="row">
       <div class="col-md-3">
-        <div class="visa-type py-3">
+        <div class="visa-type py-3" id="active-visa-type">
           <p>Tourist Visa</p>
           <p class="text-danger">required </p>
         </div>
@@ -94,12 +95,12 @@
         </div>
       </div>
 
-      <div class="col-md-8">
+      <div class="col-md-8 active-visa-nav">
         <div class="tourist-visa-plants">
             <div class="tourist-visa-plant">
-              <div class="row visa-details">
-                <div class="col-md-3 nav-visa-detail">
-                  <P>DESCRIPTION </P>
+              <div class="row visa-details ">
+                <div class="col-md-3 nav-visa-detail" id="active-nav-detail">
+                  <P>REQUIREMENT</P>
                 </div>
                 <div class="col-md-3 nav-visa-detail">
                  <P> DOCS TO SEND </P>
@@ -110,23 +111,29 @@
               </div>
               <div class="visa-detail-plants">
                   <div class="visa-detail-plant">
-                    <p> Description </p>
+                    <h3 class="pt-5 pb-3"> Need the following documents to apply:</h3>
+                    <p><span class="important-text">Chinese visa application form</span>. For online orders, please download, print and sign China visa application, prepared by our system under your account. Application <span class="important-text">  MUST </span> be typed. Handwritten applications will not be accepted by the Consulate. Please note that each page of your application <span class="important-text"> MUST be printed SINGLE-SIDED only.</span> Applications printed/signed double-sided will be rejected.</p>
+                    <p><span class="important-text">Original, signed United States of America passport </span> with at least 6 months of remaining validity and at least 2 consecutive blank visa pages.</p>
+                    <p><span class="important-text">Passport-type photograph: 1. </span> Photo must be 33mm wide and 48mm tall. Please see photo guidelines <a href="../pdf/photo_requirements.pdf" target="_blank">here</a>.</p>
+                    <p><span class="important-text">Proof of Residency.</span> A copy of driver's license, state issued ID, copy of a signed lease agreement, or major utility bill (Water, Gas, Electric, Sewage) for the most recent month, showing the applicant's name and current address.</p>
+                    <p><span class="important-text">Itinerary.</span> Copy of round trip tickets or itinerary, must show applicant's name. Rush processing is based on consular discretion and departure date.</p>
+                    <p><span class="important-text">Tourist invitation. </span> If your travel is being organized by a tour group in China, an official signed and stamped Invitation Letter for Tourist issued by Duly Authorized Tourism Unit in China can be used in place of the hotel reservation.</p>
                   </div>
-                  <div class="visa-detail-plant">
+                  <div class="visa-detail-plant hide-visa-detail">
                     <p> Docs to Send </p>
                   </div>
-                  <div class="visa-detail-plant">
+                  <div class="visa-detail-plant hide-visa-detail">
                     <p> Fees </p>
                   </div>
               </div>
             </div>
-            <div class="tourist-visa-plant">
+            <div class="tourist-visa-plant hide-tourist-plant">
               <p> Business Visa plant </p>
             </div>
-            <div class="tourist-visa-plant">
+            <div class="tourist-visa-plant hide-tourist-plant">
               <p>Work Visa </p>
             </div>
-            <div class="tourist-visa-plant">
+            <div class="tourist-visa-plant hide-tourist-plant">
               <p>Student Visa </p>
             </div>
         </div>

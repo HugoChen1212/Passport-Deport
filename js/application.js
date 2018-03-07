@@ -23,7 +23,7 @@ $(document).ready(function (){
 
 
 //jquery for chinese visa
-$('.tourist-visa-plant').hide();
+$('.hide-tourist-plant').hide();
 $(".visa-type").click( function(){
   var self=$(this);
   var currentIndex = self.index();
@@ -35,7 +35,7 @@ $(".visa-type").click( function(){
 
 
 //Jauery for chinese visa detial
-$('.visa-detail-plant').hide();
+$('.hide-visa-detail').hide();
 $(".nav-visa-detail").click( function(){
   var self=$(this);
   var currentIndex = self.index();

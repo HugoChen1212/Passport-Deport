@@ -22,10 +22,21 @@
   padding-right: 30px;
   padding-left: 30px;
   text-align: center;
+  font-weight: bold;
 }
 .visa-detail-plant p{
- text-align: center;
+
 }
 .visa-details{
   border-bottom: 1px solid #e0e0e0;
+}
+
+/* active
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#active-visa-type{
+  border-right: 1px solid #f9f9f9;
+}
+#active-nav-detail{
+  border-bottom: 3px solid #5f4696;
 }
