@@ -46,6 +46,31 @@ $(".nav-visa-detail").click( function(){
 });
 
 
+//Jauery for Chinese visa details titel dropdown
+
+$(".plus-side").closest(".dp-title").click( function(){
+  $(".dp-title").hide();
+  $(".dp-details").show();
+});
+
+$(".minus-side").closest(".dp-details").click( function(){
+  $(".dp-details").hide();
+  $(".dp-title").show();
+});
+
+//Jauery for Chinese visa details titel dropdown
+
+$(".born-plus-side").closest(".born-title").click( function(){
+  $(".born-title").hide();
+  $(".born-details").show();
+});
+
+$(".born-minus-side").closest(".born-details").click( function(){
+  $(".born-details").hide();
+  $(".born-title").show();
+});
+
+
 //home-page header image
 
 var images = [
