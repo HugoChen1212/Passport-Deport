@@ -22,6 +22,29 @@ $(document).ready(function (){
   });
 
 
+//jquery for chinese visa
+$('.tourist-visa-plant').hide();
+$(".visa-type").click( function(){
+  var self=$(this);
+  var currentIndex = self.index();
+  $(".visa-type").css({"border-right":"1px solid #e0e0e0"});
+  $('.tourist-visa-plants').children().hide();
+  $('.tourist-visa-plants').children().eq(currentIndex).show();
+  $(self).css({"border-right": "1px solid #f9f9f9"});
+});
+
+
+//Jauery for chinese visa detial
+$('.visa-detail-plant').hide();
+$(".nav-visa-detail").click( function(){
+  var self=$(this);
+  var currentIndex = self.index();
+  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
+  $('.visa-detail-plants').children().hide();
+  $('.visa-detail-plants').children().eq(currentIndex).show();
+  $(self).css({"border-bottom": "3px solid #5f4696"});
+});
+
 
 //home-page header image
 

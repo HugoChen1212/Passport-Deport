@@ -5,3 +5,27 @@
 
   text-align: center;
 }
+.visa-type  {
+  border: 1px solid #e0e0e0;
+  padding-left: 30px;
+}
+.title-china-visa{
+  background-color:#5f4696;
+  height: 50px;
+  width: 100%;
+}
+.visa-type p{
+  margin-bottom: 0px;
+}
+.nav-visa-detail{
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+.visa-detail-plant p{
+ text-align: center;
+}
+.visa-details{
+  border-bottom: 1px solid #e0e0e0;
+}
