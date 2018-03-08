@@ -46,19 +46,19 @@ $(".nav-visa-detail").click( function(){
 });
 
 
-//Jauery for Chinese visa details titel dropdown
+//jQuery for Chinese visa details titel dropdown
 
 $(".plus-side").closest(".dp-title").click( function(){
   $(".dp-title").hide();
-  $(".dp-details").show();
+  $(".dm-details").show();
 });
 
-$(".minus-side").closest(".dp-details").click( function(){
-  $(".dp-details").hide();
+$(".minus-side").closest(".dm-details").click( function(){
+  $(".dm-details").hide();
   $(".dp-title").show();
 });
 
-//Jauery for Chinese visa details titel dropdown
+//jQuery for Chinese visa born dropdown
 
 $(".born-plus-side").closest(".born-title").click( function(){
   $(".born-title").hide();
@@ -70,6 +70,42 @@ $(".born-minus-side").closest(".born-details").click( function(){
   $(".born-title").show();
 });
 
+
+//jQuery for Chinese visa adopted dropdown
+
+$(".adopted-plus-side").closest(".adopted-title").click( function(){
+  $(".adopted-title").hide();
+  $(".adopted-details").show();
+});
+
+$(".adopted-minus-side").closest(".adopted-details").click( function(){
+  $(".adopted-details").hide();
+  $(".adopted-title").show();
+});
+
+//jQuery for Chinese visa tibetan dropdown
+
+$(".tibetan-plus-side").closest(".tibetan-title").click( function(){
+  $(".tibetan-title").hide();
+  $(".tibetan-details").show();
+});
+
+$(".tibetan-minus-side").closest(".tibetan-details").click( function(){
+  $(".tibetan-details").hide();
+  $(".tibetan-title").show();
+});
+
+//jQuery for Chinese visa media dropdown
+
+$(".media-plus-side").closest(".media-title").click( function(){
+  $(".media-title").hide();
+  $(".media-details").show();
+});
+
+$(".media-minus-side").closest(".media-details").click( function(){
+  $(".media-details").hide();
+  $(".media-title").show();
+});
 
 //home-page header image
 
