@@ -1,14 +1,3 @@
-//jquery for new_passport
- $('.panel').hide();
- $('.panels').children().first().show();
-  $(".np-list-item").click( function(){
-    var self = $(this);
-    var currentIndex = self.index();
-    $(".np-list-item").css({"background-color":"#e0e1e2","border-bottom":"1px solid #e0e0e0","height": "50px"});
-     $('.panels').children().hide();
-    $('.panels').children().eq(currentIndex).show();
-    $(self).css({"background-color":"#f9f9f9", "border-bottom": "1px solid #f9f9f9","height": "60px"});
-  });
 
 //jquery for chinese Tourist visa
 //jquery for chinese Tourist visa
