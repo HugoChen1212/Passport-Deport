@@ -8,11 +8,7 @@
   border: 1px solid #e0e0e0;
   padding-left: 30px;
 }
-.title-china-visa{
-  background-color:#5f4696;
-  height: 50px;
-  width: 100%;
-}
+
 .visa-type p{
   margin-bottom: 0px;
 }
@@ -59,4 +55,37 @@
 }
 #active-nav-detail{
   border-bottom: 3px solid #5f4696;
+}
+
+
+/* select items
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.title-china-visa{
+  background-color:#5f4696;
+  height: 60px;
+  width: 100%;
+}
+
+.select-box{
+  width: 300px;
+  height: 37px;
+  border:1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 30px;
+  margin-top: 12px;
+  float: right;
+}
+
+.select-icon{
+  float: right;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-right: 5px;
+  margin-top: 1px;
+  text-align: center;
+}
+.select-text{
+  padding-left: 10px;
+  font-size: 25px;
 }
