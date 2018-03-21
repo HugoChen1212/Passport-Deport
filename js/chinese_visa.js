@@ -1,6 +1,5 @@
 
 //jquery for chinese Tourist visa
-//jquery for chinese Tourist visa
 
 $('.hide-tourist-plant').hide();
 $(".visa-type").click( function(){
@@ -125,3 +124,18 @@ $(".media-minus-side").closest(".media-details").click( function(){
   $(".media-details").hide();
   $(".media-title").show();
 });
+
+
+//jQuery for select box
+$(".select-icon").closest(".select-box").click(
+  function(){
+    $(".select-box").hide();
+    $("#select-div").show();
+  });
+
+$("#select-div").find(".icon-div").click(
+  function(){
+    $("#select-div").hide();
+    $(".select-box").show();
+  });
+
