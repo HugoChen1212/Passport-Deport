@@ -24,15 +24,16 @@ $(".nav-visa-detail").click( function(){
 });
 
 //Jauery for india Tourist visa detial
-// $('.hide-india-visa-detail').hide();
-// $(".nav-visa-detail").click( function(){
-//   var self=$(this);
-//   var currentIndex = self.index();
-//   $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
-//   $('.india-visa-detail-plants').children().hide();
-//   $('.india-visa-detail-plants').children().eq(currentIndex).show();
-//   $(self).css({"border-bottom": "3px solid #5f4696"});
-// });
+$('.hide-visa-detail').hide();
+$(".nav-visa-detail").click( function(){
+  var self=$(this);
+  var currentIndex = self.index();
+  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
+
+  $(".india-detail-plants").children().hide();
+  $(".india-detail-plants").children().eq(currentIndex).show();
+  $(self).css({"border-bottom": "3px solid #5f4696"});
+});
 
 
 //Jauery for chinese Business visa detial
