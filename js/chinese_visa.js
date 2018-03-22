@@ -126,7 +126,7 @@ $(".media-minus-side").closest(".media-details").click( function(){
 });
 
 
-//jQuery for select box
+//jQuery for select box's display
 $(".select-icon").closest(".select-box").click(
   function(){
     $(".select-box").hide();
@@ -139,3 +139,10 @@ $("#select-div").find(".icon-div").click(
     $(".select-box").show();
   });
 
+//jQuery for select box's select element
+// $(".search-item").find('.select-link').click(function(){
+//   var self = this;
+//   console.log(self);
+//   var item = self.val();
+//   console.log(item);
+// });
