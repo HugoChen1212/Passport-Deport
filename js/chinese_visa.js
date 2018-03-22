@@ -152,9 +152,15 @@ $("#select-div").find(".icon-div").click(
   });
 
 //jQuery for select box's select element
-// $(".search-item").find('.select-link').click(function(){
-//   var self = this;
-//   console.log(self);
-//   var item = self.val();
-//   console.log(item);
-// });
+$(".search-box").on("keyup", function(){
+  var input =$(this).val().toLowerCase();
+  $(".select-link").each(function() {
+    var countries = $(this).text().toLowerCase();
+    if(countries.indexOf(input)!==-1){
+      $(this).show();
+    }
+    else{
+      $(this).hide();
+    }
+  });
+});

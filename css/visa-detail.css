@@ -119,6 +119,10 @@
   overflow: auto;
   list-style-type: none;
 }
+.search-item ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
 
 .search-box{
   font-family: "FontAwesome";
