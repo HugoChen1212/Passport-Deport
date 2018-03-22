@@ -23,6 +23,18 @@ $(".nav-visa-detail").click( function(){
   $(self).css({"border-bottom": "3px solid #5f4696"});
 });
 
+//Jauery for india Tourist visa detial
+$('.hide-visa-detail').hide();
+$(".nav-visa-detail").click( function(){
+  var self=$(this);
+  var currentIndex = self.index();
+  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
+
+  $(".india-detail-plants").children().hide();
+  $(".india-detail-plants").children().eq(currentIndex).show();
+  $(self).css({"border-bottom": "3px solid #5f4696"});
+});
+
 
 //Jauery for chinese Business visa detial
 
@@ -126,7 +138,7 @@ $(".media-minus-side").closest(".media-details").click( function(){
 });
 
 
-//jQuery for select box
+//jQuery for select box's display
 $(".select-icon").closest(".select-box").click(
   function(){
     $(".select-box").hide();
@@ -139,3 +151,10 @@ $("#select-div").find(".icon-div").click(
     $(".select-box").show();
   });
 
+//jQuery for select box's select element
+// $(".search-item").find('.select-link').click(function(){
+//   var self = this;
+//   console.log(self);
+//   var item = self.val();
+//   console.log(item);
+// });
