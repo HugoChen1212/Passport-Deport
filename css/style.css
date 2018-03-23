@@ -44,7 +44,10 @@ body, html{
   font-weight: bold;
 }
 
-
+.logo-text{
+  font-size: x-large;
+  font-family: 'Shrikhand', cursive;
+}
 
 /* background-image
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
