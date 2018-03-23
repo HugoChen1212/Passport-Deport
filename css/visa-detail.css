@@ -138,3 +138,17 @@
 .icon-div{
   display: inline;
 }
+
+/* select items
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.notic-on-top{
+  border:1px solid #e0e0e0;
+  background-color: #cde2c3;
+  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+}
