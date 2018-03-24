@@ -12,6 +12,7 @@ $(".visa-type").click( function(){
 });
 
 
+
 //Jauery for chinese Tourist visa detial
 $('.hide-visa-detail').hide();
 $(".nav-visa-detail").click( function(){
