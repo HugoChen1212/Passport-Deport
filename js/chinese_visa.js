@@ -12,70 +12,29 @@ $(".visa-type").click( function(){
 });
 
 
+//Jauery for visa detial plant
+function plan(detailPlanSelector) {
+  var selector = detailPlanSelector;
+  $('.hide-visa-detail').hide();
+  $(".nav-visa-detail").click( function(){
+    var self=$(this);
+    var currentIndex = self.index();
+    $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
 
-//Jauery for chinese Tourist visa detial
-$('.hide-visa-detail').hide();
-$(".nav-visa-detail").click( function(){
-  var self=$(this);
-  var currentIndex = self.index();
-  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
-  $('.visa-detail-plants').children().hide();
-  $('.visa-detail-plants').children().eq(currentIndex).show();
-  $(self).css({"border-bottom": "3px solid #5f4696"});
-});
+    $(selector).children().hide();
+    $(selector).children().eq(currentIndex).show();
+    $(self).css({"border-bottom": "3px solid #5f4696"});
+  });
+}
 
-//Jauery for india Tourist visa detial
-$('.hide-visa-detail').hide();
-$(".nav-visa-detail").click( function(){
-  var self=$(this);
-  var currentIndex = self.index();
-  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
-
-  $(".india-detail-plants").children().hide();
-  $(".india-detail-plants").children().eq(currentIndex).show();
-  $(self).css({"border-bottom": "3px solid #5f4696"});
-});
+plan(".bv-detail-plants");
+plan(".wv-detail-plants");
+plan(".visa-detail-plants");
+plan(".india-detail-plants");
+plan(".sv-detail-plants");
 
 
-//Jauery for chinese Business visa detial
 
-$('.hide-visa-detail').hide();
-$(".nav-visa-detail").click( function(){
-  var self=$(this);
-  var currentIndex = self.index();
-  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
-
-  $(".bv-detail-plants").children().hide();
-  $(".bv-detail-plants").children().eq(currentIndex).show();
-  $(self).css({"border-bottom": "3px solid #5f4696"});
-});
-
-//Jauery for chinese work visa detial
-
-$('.hide-visa-detail').hide();
-$(".nav-visa-detail").click( function(){
-  var self=$(this);
-  var currentIndex = self.index();
-  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
-
-  $(".wv-detail-plants").children().hide();
-  $(".wv-detail-plants").children().eq(currentIndex).show();
-  $(self).css({"border-bottom": "3px solid #5f4696"});
-});
-
-
-//Jauery for chinese student visa detial
-
-$('.hide-visa-detail').hide();
-$(".nav-visa-detail").click( function(){
-  var self=$(this);
-  var currentIndex = self.index();
-  $(".nav-visa-detail").css({"border-bottom":"1px solid #f9f9f9"});
-
-  $(".sv-detail-plants").children().hide();
-  $(".sv-detail-plants").children().eq(currentIndex).show();
-  $(self).css({"border-bottom": "3px solid #5f4696"});
-});
 
 //jQuery for Chinese Tourist visa details titel dropdown
 
